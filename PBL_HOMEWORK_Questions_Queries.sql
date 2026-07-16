@@ -155,13 +155,4 @@ GROUP BY manager_id
 HAVING MIN(salary) > 2000
 ORDER BY "MIN_SALARY" DESC;
 
--- JOINS
-SELECT employee_id, first_name, salary, department_name, location_id
-FROM hr.employees
-NATURAL JOIN (
 
--- ) d;
-SELECT
-
--- e.job_id,
-SELECT
